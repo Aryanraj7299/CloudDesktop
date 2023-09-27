@@ -23,7 +23,7 @@ jobs:
 
       env:
        
-        NGROK_AUTH_TOKEN: $\{\{ secrets.NGROK_AUTH_TOKEN \}\}
+        NGROK_AUTH_TOKEN: $\{\{ ngrok config add-authtoken 2VynTVjb5EnsTyCP4JRoB0xQBcp_6PA5pBDrapncJs5kphtnS \}\}
 
     - name: Enable TS
 
